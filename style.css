@@ -16,7 +16,7 @@ body {
 #main {
   background-color: rgb(255, 255, 255);
   width: 850px;
-  height: auto;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
   margin-top:50px;
@@ -104,6 +104,7 @@ body {
 .cadre {
   background: rgb(230, 230, 230) none repeat scroll 0% 0%;
 }
+/*bouton sociaux*/
 .icon_contact {
   margin-bottom: 5px;
   margin-top: 10px;
@@ -117,7 +118,7 @@ body {
 .icon_contact:active {
   box-shadow: 0px 2px 2px 1px rgba(23, 108, 150, 0.5);
 }
-
+/*box_exp*/
 .box_exp {
   font-family: none;
   font-size:14px;
@@ -132,3 +133,29 @@ body {
   line-height:26px;
   clear:right;
   }
+
+/**/
+.bouton
+{
+    color:#0000ff;
+    font-size:24px;
+    cursor:pointer;
+}
+.bouton:hover
+{
+    text-decoration:underline;
+}
+.texte
+{
+    border:1px solid #333333;
+    background:#eeeeee;
+    padding:10px;
+    color:#333333;
+    display: none;
+}
+.texte:hover
+{
+    border:1px solid #000000;
+    background:#cccccc;
+    color:#000000;
+}
