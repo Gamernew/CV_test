@@ -5,6 +5,14 @@ body {
 	color:#333;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url("./font/LibreBaskerville-Bold.otf");
+}
+@font-face {
+  font-family: mySecondFont;
+  src: url("./font/Cambo-Regular.otf");
+}
 #main {
   background-color: rgb(255, 255, 255);
   width: 850px;
@@ -29,11 +37,11 @@ body {
   background-color: rgb(255, 255, 255);
   float: left;
   margin-left: 30px;
-  margin-top: 40px;
+  margin-top: 25px;
   padding: 10px;
-  width: 150px;
-  height: 200px;
-  box-shadow: -1px 0px 2px 3px rgba(0, 0, 0, 0.5);
+  width: 168px;
+  height: 180px;
+  box-shadow: 0px 3px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 #resume-top {
@@ -59,6 +67,7 @@ body {
   height: 2px;
   margin-bottom: 32px;
 }
+
 #middle_content {
   height: 900px;
   margin-left: 30px;
@@ -71,12 +80,55 @@ body {
 }
 
 .big_title {
-  text-shadow: -1px 2px rgba(0, 0, 0, 0.2);
-
-
-}
-.title {
   margin-left: 20px;
-  font-style: italic;
-  color:rgb(16, 97, 128);
+  font-family: myFirstFont;
+  text-shadow: -1px 2px rgba(0, 0, 0, 0.2);
 }
+
+/*Titre des encadrés main*/
+.title {
+  font-family: myFirstFont;
+  font-weight: bold;
+  margin-left: 20px;
+  color:rgb(16, 97, 128);
+
+}
+
+.description {
+  font-family: mySecondFont;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*Met les couleurs dans les encadrés de main*/
+.cadre {
+  background: rgb(230, 230, 230) none repeat scroll 0% 0%;
+}
+.icon_contact {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.icon_contact:hover {
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.icon_contact:active {
+  box-shadow: 0px 2px 2px 1px rgba(23, 108, 150, 0.5);
+}
+
+.box_exp {
+  font-family: none;
+  font-size:14px;
+  margin-left:10px;
+  display:inline;
+  background:#2F597F;
+  color:#fff;
+  width:150px;
+  text-align:center;
+  padding: 3px 10px 3px 10px;
+  font-weight:normal;
+  line-height:26px;
+  clear:right;
+  }
