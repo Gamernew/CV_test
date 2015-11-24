@@ -16,7 +16,7 @@ body {
 #main {
   background-color: rgb(255, 255, 255);
   width: 850px;
-  height: 500px;
+  height: 461px;
   margin-left: auto;
   margin-right: auto;
   margin-top:50px;
@@ -26,11 +26,8 @@ body {
 }
 
 #top_content {
-
   width: 850px;
   height: 300px;
-
-
 }
 #picture img{
 
@@ -69,14 +66,17 @@ body {
 }
 
 #middle_content {
-  height: 900px;
+  height: auto;
   margin-left: 30px;
   margin-right: 20px;
 }
 #middle_content .list > li{
   border: 1px dashed #AFAFAF;
   list-style-type:none;
+}
 
+#bottom-content {
+  padding-bottom: 15px;
 }
 
 .big_title {
@@ -103,6 +103,7 @@ body {
 /*Met les couleurs dans les encadrés de main*/
 .cadre {
   background: rgb(230, 230, 230) none repeat scroll 0% 0%;
+
 }
 /*bouton sociaux*/
 .icon_contact {
@@ -146,16 +147,12 @@ body {
     text-decoration:underline;
 }
 .texte
-{
-    border:1px solid #333333;
-    background:#eeeeee;
-    padding:10px;
+{ margin: 0px;
+    padding:0px;
     color:#333333;
     display: none;
 }
 .texte:hover
 {
-    border:1px solid #000000;
-    background:#cccccc;
     color:#000000;
 }
