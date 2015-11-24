@@ -13,8 +13,8 @@ body {
   margin-right: auto;
   margin-top:50px;
   margin-bottom: 30px;
-  border-radius: 15px;
   box-shadow: -1px 0px 3px 5px rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
 }
 
 #top_content {
@@ -76,6 +76,7 @@ body {
 
 }
 .title {
+  margin-left: 20px;
   font-style: italic;
   color:rgb(16, 97, 128);
 }
