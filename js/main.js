@@ -1,15 +1,10 @@
-function afficher_cacher(id)
-{
-  if(document.getElementById(id).style.display=="none")
-  {
-      document.getElementById("main").style.height = "auto";
-      document.getElementById(id).style.display="block";
-      document.getElementById('bouton_'+id).innerHTML='Cacher le texte';
-  }
-  else
-  {   document.getElementById("main").style.height = "auto";
-      document.getElementById(id).style.display="none";
-      document.getElementById('bouton_'+id).innerHTML='Afficher le texte';
-  }
+var currentElement = null
+
+function afficher_cacher(id) {
+  if (currentElement != null)
+  currentElement.style.display = "none";
+  currentElement = document.getElementById(id);
+  document.getElementById("main").style.height = "auto";
+  currentElement.style.display = "block";
   return true;
 }
