@@ -1,9 +1,14 @@
+/*corp de la page*/
+
 body {
   font: 14px/24px Arial, Helvetica, sans-serif;
   color: #333;
   background: #a3a8ad url(./img/background-1.png) 0 0 repeat-x;
   background-attachment: fixed;
 }
+
+/*import des fonts*/
+
 @font-face {
   font-family: myFirstFont;
   src: url('./font/LibreBaskerville-Bold.otf');
@@ -12,6 +17,9 @@ body {
   font-family: mySecondFont;
   src: url('./font/Cambo-Regular.otf');
 }
+
+/*Div principal*/
+
 #main {
   width: 850px;
   height: auto;
@@ -23,10 +31,16 @@ body {
   background-color: rgb(255, 255, 255);
   box-shadow: -1px 0 3px 1px rgba(0, 0, 0, .7);
 }
+
+/*contenu du haut*/
+
 #top_content {
   width: 850px;
   height: 400px;
 }
+
+/*La photo*/
+
 #picture img {
   float: left;
   width: 168px;
@@ -35,12 +49,18 @@ body {
   margin-left: 30px;
   box-shadow: 0 3px 2px 2px rgba(0, 0, 0, .2);
 }
+
+/*titre du haut*/
+
 #title_top {
   font-size: 20px;
   font-weight: bold;
   margin-left: 40px;
   color: rgb(16, 97, 128);
 }
+
+/*résumé du haut*/
+
 #resume_top {
   float: right;
   width: 600px;
@@ -57,6 +77,9 @@ body {
   margin-left: 30px;
   padding: 10px;
 }
+
+/*infomation */
+
 .info {
   font-size: 16px;
   font-family: mySecondFont;
@@ -72,6 +95,9 @@ body {
   font-family: myFirstFont;
   margin-left: 40px;
 }
+
+/*séparateur*/
+
 .border {
   height: 2px;
   margin-top: 0;
@@ -81,6 +107,9 @@ body {
   padding-top: 0;
   background: transparent url('./img/separator.png') repeat-x scroll 0 0;
 }
+
+/*contenu du milieu*/
+
 #middle_content {
   height: auto;
   margin-right: 20px;
@@ -125,7 +154,7 @@ body {
   margin-top: 10px;
   margin-bottom: 5px;
   margin-left: 75px;
-  margin-right:75px;
+  margin-right: 75px;
 }
 .icon_contact:hover {
   box-shadow: 0 2px 2px 1px rgba(0, 0, 0, .5);
@@ -181,30 +210,12 @@ body {
   background: linear-gradient( #555, #2C2C2C);
   box-shadow: 1px 1px 10px black inset, 0 1px 0 rgba( 255, 255, 255, 0.4);
 }
-.texte {
+.texte, .texte2, .texte3 {
   display: none;
   margin: 0;
   padding: 0;
   color: #333;
 }
-.texte:hover {
-  color: #000;
-}
-.texte2 {
-  display: none;
-  margin: 0;
-  padding: 0;
-  color: #333;
-}
-.texte2:hover {
-  color: #000;
-}
-.texte3 {
-  display: none;
-  margin: 0;
-  padding: 0;
-  color: #333;
-}
-.texte3:hover {
+.texte:hover, .texte2:hover, .texte3:hover {
   color: #000;
 }
